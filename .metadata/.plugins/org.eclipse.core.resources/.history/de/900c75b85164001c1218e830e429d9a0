@@ -1,0 +1,421 @@
+20:52:58.274 [main] INFO  com.cognizant.Main - main method started
+20:52:58.290 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+20:53:04.202 [main] INFO  com.cognizant.Main - enter patient details
+20:53:04.202 [main] INFO  com.cognizant.Main - enter name
+20:53:08.196 [main] INFO  com.cognizant.Main - enter age
+20:53:10.622 [main] INFO  com.cognizant.Main - enter sex type
+20:53:12.846 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+20:53:21.393 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+20:53:34.237 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+20:55:32.874 [main] INFO  com.cognizant.Main - main method started
+20:55:32.890 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+20:55:35.484 [main] INFO  com.cognizant.Main - enter patient details
+20:55:35.485 [main] INFO  com.cognizant.Main - enter name
+20:55:37.587 [main] INFO  com.cognizant.Main - enter age
+20:55:39.905 [main] INFO  com.cognizant.Main - enter sex type
+20:55:43.189 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+20:55:48.697 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+20:55:58.939 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+20:56:28.199 [main] INFO  com.cognizant.Main - enter patient details
+20:56:28.199 [main] INFO  com.cognizant.Main - enter name
+20:56:31.886 [main] INFO  com.cognizant.Main - enter age
+20:56:33.786 [main] INFO  com.cognizant.Main - enter sex type
+20:56:34.850 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+20:56:39.633 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+20:56:50.122 [main] ERROR com.cognizant.Main - error {}
+java.text.ParseException: Unparseable date: "28:04:2000 3:50"
+	at java.base/java.text.DateFormat.parse(DateFormat.java:399)
+	at com.cognizant.util.DateUtil.convertToDate(DateUtil.java:11)
+	at com.cognizant.Main.addPatientDetails(Main.java:21)
+	at com.cognizant.Main.main(Main.java:65)
+20:56:50.122 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+20:56:58.866 [main] INFO  com.cognizant.Main - enter patient details
+20:56:58.867 [main] INFO  com.cognizant.Main - enter name
+20:57:00.092 [main] INFO  com.cognizant.Main - enter age
+20:57:01.037 [main] INFO  com.cognizant.Main - enter sex type
+20:57:01.888 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+20:57:07.276 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+20:57:16.265 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:04:48.832 [main] INFO  com.cognizant.Main - main method started
+21:04:48.870 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:04:51.399 [main] INFO  com.cognizant.Main - enter patient details
+21:04:51.400 [main] INFO  com.cognizant.Main - enter name
+21:04:53.299 [main] INFO  com.cognizant.Main - enter age
+21:04:54.841 [main] INFO  com.cognizant.Main - enter sex type
+21:04:58.295 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:05:07.765 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:05:13.880 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:05:59.103 [main] INFO  com.cognizant.Main - main method started
+21:05:59.117 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:06:01.824 [main] INFO  com.cognizant.Main - enter patient details
+21:06:01.824 [main] INFO  com.cognizant.Main - enter name
+21:06:03.994 [main] INFO  com.cognizant.Main - enter age
+21:06:05.901 [main] INFO  com.cognizant.Main - enter sex type
+21:06:07.964 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:06:14.653 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:06:23.169 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:19:08.611 [main] INFO  com.cognizant.Main - main method started
+21:19:08.621 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:19:44.914 [main] INFO  com.cognizant.Main - enter patient details
+21:19:44.915 [main] INFO  com.cognizant.Main - enter name
+21:19:46.729 [main] INFO  com.cognizant.Main - enter age
+21:19:47.628 [main] INFO  com.cognizant.Main - enter sex type
+21:19:48.309 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:20:00.703 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:20:10.740 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:20:10.751 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:20:10.754 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:20:17.818 [main] INFO  com.cognizant.Main - enter patient details
+21:20:17.818 [main] INFO  com.cognizant.Main - enter name
+21:20:23.542 [main] INFO  com.cognizant.Main - enter age
+21:20:26.171 [main] INFO  com.cognizant.Main - enter sex type
+21:20:27.074 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:20:40.450 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:20:48.221 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:20:48.223 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:20:48.223 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:21:00.089 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:21:00.090 [main] INFO  com.cognizant.Main - All appointments
+21:21:00.092 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:21:00.092 [main] INFO  com.cognizant.Main - existed from main method
+21:22:46.414 [main] INFO  com.cognizant.Main - main method started
+21:22:46.431 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:22:49.627 [main] INFO  com.cognizant.Main - enter patient details
+21:22:49.628 [main] INFO  com.cognizant.Main - enter name
+21:22:51.332 [main] INFO  com.cognizant.Main - enter age
+21:22:52.329 [main] INFO  com.cognizant.Main - enter sex type
+21:22:52.870 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:22:57.957 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:23:01.368 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:23:01.376 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:23:01.378 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:23:03.882 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:23:03.882 [main] INFO  com.cognizant.Main - All appointments
+21:23:03.884 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:23:03.884 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:24:09.873 [main] INFO  com.cognizant.Main - main method started
+21:24:09.885 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:24:12.006 [main] INFO  com.cognizant.Main - enter patient details
+21:24:12.006 [main] INFO  com.cognizant.Main - enter name
+21:24:13.622 [main] INFO  com.cognizant.Main - enter age
+21:24:15.286 [main] INFO  com.cognizant.Main - enter sex type
+21:24:16.396 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:24:20.699 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:24:25.626 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:24:25.634 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:24:25.636 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=2, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:24:25.637 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:24:30.104 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:24:30.105 [main] INFO  com.cognizant.Main - All appointments
+21:24:30.108 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:24:30.108 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:25:18.873 [main] INFO  com.cognizant.Main - main method started
+21:25:18.889 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:25:23.705 [main] INFO  com.cognizant.Main - enter patient details
+21:25:23.706 [main] INFO  com.cognizant.Main - enter name
+21:25:25.134 [main] INFO  com.cognizant.Main - enter age
+21:25:26.222 [main] INFO  com.cognizant.Main - enter sex type
+21:25:26.759 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:25:33.440 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:25:37.470 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:25:37.479 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:25:37.482 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=2, sex=2, date=Fri Apr 28 03:00:00 IST 2000)
+21:25:37.483 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:25:41.936 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:25:41.936 [main] INFO  com.cognizant.Main - All appointments
+21:25:41.937 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:25:41.938 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:25:49.558 [main] INFO  com.cognizant.Main - enter patient details
+21:25:49.558 [main] INFO  com.cognizant.Main - enter name
+21:25:51.244 [main] INFO  com.cognizant.Main - enter age
+21:25:55.173 [main] INFO  com.cognizant.Main - enter sex type
+21:25:55.712 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:26:00.708 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:26:04.448 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:26:04.449 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:26:04.450 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=kiran, age=2, sex=2, date=Fri Apr 28 03:00:00 IST 2000)
+21:26:04.450 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:26:20.152 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:26:20.152 [main] INFO  com.cognizant.Main - All appointments
+21:26:20.153 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:26:20.153 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:26:45.869 [main] INFO  com.cognizant.Main - enter patient details
+21:26:45.869 [main] INFO  com.cognizant.Main - enter name
+21:26:49.882 [main] INFO  com.cognizant.Main - enter age
+21:26:51.222 [main] INFO  com.cognizant.Main - enter sex type
+21:26:51.851 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:26:57.521 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:27:10.680 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:27:10.681 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:27:10.682 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=sisi, age=m, sex=2, date=Fri Apr 28 02:45:00 IST 2000)
+21:27:10.682 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:27:14.627 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:27:14.627 [main] INFO  com.cognizant.Main - All appointments
+21:27:14.628 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:27:14.628 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:27:30.724 [main] INFO  com.cognizant.Main - enter patient details
+21:27:30.724 [main] INFO  com.cognizant.Main - enter name
+21:27:37.067 [main] INFO  com.cognizant.Main - enter age
+21:27:40.018 [main] INFO  com.cognizant.Main - enter sex type
+21:27:40.485 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:27:44.970 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:28:01.007 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:28:01.009 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:28:01.009 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=priya, age=2, sex=2, date=Fri Apr 28 02:59:00 IST 2000)
+21:28:01.010 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:28:05.105 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:28:05.105 [main] INFO  com.cognizant.Main - All appointments
+21:28:05.106 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:28:05.106 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:32:48.890 [main] INFO  com.cognizant.Main - main method started
+21:32:48.902 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:32:51.723 [main] INFO  com.cognizant.Main - enter patient details
+21:32:51.723 [main] INFO  com.cognizant.Main - enter name
+21:32:59.781 [main] INFO  com.cognizant.Main - enter age
+21:33:00.872 [main] INFO  com.cognizant.Main - enter sex type
+21:33:01.892 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:33:09.023 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:33:11.671 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:33:11.679 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:33:11.682 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=m, sex=2, date=Fri Apr 28 03:00:00 IST 2000)
+21:33:11.682 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:33:15.328 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:33:15.329 [main] INFO  com.cognizant.Main - All appointments
+21:33:15.331 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:33:15.331 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:33:21.700 [main] INFO  com.cognizant.Main - enter patient details
+21:33:21.700 [main] INFO  com.cognizant.Main - enter name
+21:33:23.468 [main] INFO  com.cognizant.Main - enter age
+21:33:25.833 [main] INFO  com.cognizant.Main - enter sex type
+21:33:26.799 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:33:30.911 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:33:39.045 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:33:39.046 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:33:39.047 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=kiran, age=2, sex=2, date=Fri Apr 28 03:00:00 IST 2000)
+21:33:39.047 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:34:18.622 [main] INFO  com.cognizant.Main - main method started
+21:34:18.635 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:34:20.670 [main] INFO  com.cognizant.Main - enter patient details
+21:34:20.670 [main] INFO  com.cognizant.Main - enter name
+21:34:22.118 [main] INFO  com.cognizant.Main - enter age
+21:34:23.520 [main] INFO  com.cognizant.Main - enter sex type
+21:34:24.149 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:34:27.941 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:34:31.854 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:34:31.862 [main] INFO  com.cognizant.Main - patient appointment booked successfully : true
+21:34:31.865 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vija, age=m, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:34:31.865 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:34:33.155 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:34:33.155 [main] INFO  com.cognizant.Main - All appointments
+21:34:33.156 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:34:33.156 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:34:37.995 [main] INFO  com.cognizant.Main - enter patient details
+21:34:37.995 [main] INFO  com.cognizant.Main - enter name
+21:34:39.436 [main] INFO  com.cognizant.Main - enter age
+21:34:41.046 [main] INFO  com.cognizant.Main - enter sex type
+21:34:41.741 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:34:47.944 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:34:55.378 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:34:55.380 [main] INFO  com.cognizant.Main - patient appointment booked successfully : false
+21:34:55.380 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=kiran, age=v, sex=2, date=Fri Apr 28 03:11:00 IST 2000)
+21:34:55.380 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:35:09.356 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:35:09.357 [main] INFO  com.cognizant.Main - All appointments
+21:35:09.357 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:35:09.357 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:42:44.534 [main] INFO  com.cognizant.Main - main method started
+21:42:44.548 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:42:49.089 [main] INFO  com.cognizant.Main - enter patient details
+21:42:49.090 [main] INFO  com.cognizant.Main - enter name
+21:42:50.832 [main] INFO  com.cognizant.Main - enter age
+21:42:54.591 [main] INFO  com.cognizant.Main - enter sex type
+21:42:55.551 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:42:59.967 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:43:04.227 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:43:04.236 [main] INFO  com.cognizant.Main - patient appointment booked successfully 
+21:43:04.237 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=20, sex=male, date=Fri Apr 28 03:00:00 IST 2000)
+21:43:04.239 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:43:09.494 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:43:09.494 [main] INFO  com.cognizant.Main - All appointments
+21:43:09.496 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:43:09.497 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:43:39.278 [main] INFO  com.cognizant.Main - main method started
+21:43:39.294 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:43:55.972 [main] INFO  com.cognizant.Main - enter patient details
+21:43:55.973 [main] INFO  com.cognizant.Main - enter name
+21:44:00.907 [main] INFO  com.cognizant.Main - enter age
+21:44:01.591 [main] INFO  com.cognizant.Main - enter sex type
+21:44:02.364 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:44:06.748 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:44:15.941 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:44:15.950 [main] INFO  com.cognizant.Main - patient appointment booked successfully 
+21:44:15.951 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=10, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:44:15.953 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:44:20.599 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:44:20.599 [main] INFO  com.cognizant.Main - All appointments
+21:44:20.601 [main] INFO  com.cognizant.Main - PatientAppointment(name=vijay, age=10, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:44:20.602 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:44:20.602 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:57:21.400 [main] INFO  com.cognizant.Main - main method started
+21:57:21.415 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:57:24.220 [main] INFO  com.cognizant.Main - enter patient details
+21:57:24.220 [main] INFO  com.cognizant.Main - enter name
+21:57:27.379 [main] INFO  com.cognizant.Main - enter age
+21:57:31.664 [main] INFO  com.cognizant.Main - enter sex type
+21:57:32.351 [main] INFO  com.cognizant.Main - enter date in the format of (dd-MM-yyyy)
+21:57:37.369 [main] INFO  com.cognizant.Main - enter time (HH:mm)
+21:57:43.985 [main] INFO  com.cognizant.Main - started addPatientDetails method
+21:57:43.992 [main] INFO  com.cognizant.Main - patient appointment booked successfully 
+21:57:43.992 [main] INFO  com.cognizant.Main - patient details are PatientAppointment(name=vijay, age=20, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:57:43.994 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:57:47.252 [main] INFO  com.cognizant.Main - entered seeAllAppointments method
+21:57:47.252 [main] INFO  com.cognizant.Main - All appointments
+21:57:47.254 [main] INFO  com.cognizant.Main - PatientAppointment(name=vijay, age=20, sex=m, date=Fri Apr 28 03:00:00 IST 2000)
+21:57:47.254 [main] INFO  com.cognizant.Main - existing seeAllAppointments method
+21:57:47.254 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit
+21:57:54.470 [main] INFO  com.cognizant.Main - existed from main method
+22:03:23.329 [main] INFO  com.cognizant.Main - main method started
+22:03:23.345 [main] INFO  com.cognizant.Main - vijay
+22:03:23.347 [main] INFO  com.cognizant.Main - kiran
+22:03:23.348 [main] INFO  com.cognizant.Main - choose correct option 
+ 1.add a patient appointment 
+ 2.view all appointments
+ 3.exit

@@ -1,0 +1,12 @@
+package com.cognizant.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Track {
+	@Id
+	private int trackId;
+	private String domainName;
+
+}

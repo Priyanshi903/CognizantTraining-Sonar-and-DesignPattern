@@ -1,0 +1,13 @@
+package com.cognizant.dao;
+
+import java.util.List;
+
+import com.cognizant.exception.CantDeletePassengerVIPException;
+import com.cognizant.model.Passenger;
+
+public interface FlightDao {
+	public void addPassenger();
+
+	public void removePassenger() throws CantDeletePassengerVIPException;
+
+}

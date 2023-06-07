@@ -1,0 +1,16 @@
+package com.cts;
+public final class Main 
+{
+	public static void main(String[] args) 
+	{
+		Client client = new Client();
+//		client.doSomeClientJob();
+		public void doSomeClientJob()
+		{
+			Tire tire = FactoryMaker.getFactory("mercedes").makeTire();
+			System.out.println(tire.getTireModel());
+			HeadLight light = FactoryMaker.getFactory("audi").makeHeadLight();
+			System.out.println(light.getHeadLightModel());
+		}
+	}
+}

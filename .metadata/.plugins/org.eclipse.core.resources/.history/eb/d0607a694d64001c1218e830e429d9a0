@@ -1,0 +1,49 @@
+package com.cognizant.model;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Trainee {
+	@Id
+	private int traineeId;
+	private String traineeName;
+	@OneToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+	@JoinColumn(name="trackId")
+	private Track track;
+	public Trainee() {
+		
+	}
+	public Trainee(int traineeId, String traineeName) {
+		super();
+		this.traineeId = traineeId;
+		this.traineeName = traineeName;
+	}
+	public int getTraineeId() {
+		return traineeId;
+	}
+	public void setTraineeId(int traineeId) {
+		this.traineeId = traineeId;
+	}
+	public String getTraineeName() {
+		return traineeName;
+	}
+	public void setTraineeName(String traineeName) {
+		this.traineeName = traineeName;
+	}
+	public Track getTrack() {
+		return track;
+	}
+	public void setTrack(Track track) {
+		this.track = track;
+	}
+	@Override
+	public String toString() {
+		return "Trainee [traineeId=" + traineeId + ", traineeName=" + traineeName + ", track=" + track + "]";
+	}
+
+}

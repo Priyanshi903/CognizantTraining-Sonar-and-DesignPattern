@@ -1,0 +1,10 @@
+sonar.projectKey=SonarExampleProject
+sonar.projectName=SonarExample-Sonar
+sonar.projectVersion=1.0
+sonar.login=admin
+sonar.password=admin123
+
+sonar.sources=
+sonar.language=java
+sonar.inclusions=**/*.java
+sonar.java.binaries=*

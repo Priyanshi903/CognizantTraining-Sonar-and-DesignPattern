@@ -1,0 +1,44 @@
+package com.cognizant.moviecruiser.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.moviecruiser.dao.MovieDao;
+import com.cognizant.moviecruiser.model.Movie;
+
+@Service
+public class MovieService {
+	@Autowired
+	private MovieDao movieRepository;
+	
+	private List<String> genre;
+	
+	public List<String> getGenreList(){
+		genre=new ArrayList<String>();
+		genre.add("Science Fiction");
+		genre.add("Superhero");
+		genre.add("Romance");
+		genre.add("Comedy");
+		genre.add("Adventure");
+		genre.add("Thriller");
+		return genre;
+	}
+	
+	public List<Movie> allMovies(){
+		return movieRepository.findAll();
+	}
+	
+	public String saveMovie(Movie movie) {
+		movieRepository.saveAndFlush(movie);
+		return "Movie Saved";
+	}
+	
+	public Movie getMovieById(long id) {
+		return movieRepository.findById(id).get();
+	}
+
+}

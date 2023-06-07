@@ -1,0 +1,8 @@
+package com.cognizant.dao;
+
+public interface FlightDao {
+	public void addPassenger();
+
+	public void removePassenger();
+
+}

@@ -1,0 +1,195 @@
+10:32:03.756 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 30004 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:32:03.761 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:32:06.005 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:32:39.458 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 18400 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:32:39.462 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:32:41.685 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:33:26.546 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 2508 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:33:26.553 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:33:28.552 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:38:50.464 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 23196 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:38:50.471 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:38:53.805 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+10:39:42.841 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 28248 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:39:42.846 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:39:42.847 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:39:44.142 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:39:44.195 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+10:39:46.920 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:39:48.009 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:39:49.172 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:39:49.518 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 7.63 seconds (JVM running for 9.403)
+10:39:49.526 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:39:49.526 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:
+10:39:55.621 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient name:
+10:39:59.339 [main] INFO  c.c.PatientIntakeSystemApplication - Choose your Doctor
+1.Praveen
+2.Sandhya,
+3.Sri Hridhya
+10:40:00.861 [main] INFO  c.c.PatientIntakeSystemApplication - Appoitments : 
+10:40:00.869 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:40:00.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:40:00.909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:40:50.101 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 18936 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:40:50.110 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:40:50.111 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:40:51.475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:40:51.518 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+10:40:54.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:40:55.665 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:40:56.819 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:40:57.163 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 8.235 seconds (JVM running for 10.027)
+10:40:57.169 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:40:57.170 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:
+10:41:01.905 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient name:
+10:41:03.821 [main] INFO  c.c.PatientIntakeSystemApplication - Choose your Doctor
+1.Praveen
+2.Sandhya,
+3.Sri Hridhya
+10:41:04.980 [main] INFO  c.c.PatientIntakeSystemApplication - Appoitments : 
+10:41:04.988 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:41:04.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:41:05.028 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:43:07.716 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 23172 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:43:07.721 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:43:07.722 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:43:09.281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:43:09.325 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+10:43:12.222 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:43:13.286 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:43:14.527 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:43:14.807 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 8.3 seconds (JVM running for 9.945)
+10:43:14.820 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:43:14.820 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:
+10:43:17.768 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient name:
+10:43:19.432 [main] INFO  c.c.PatientIntakeSystemApplication - Choose your Doctor
+1.Praveen
+2.Sandhya,
+3.Sri Hridhya
+10:43:20.255 [main] INFO  c.c.PatientIntakeSystemApplication - Appoitments : 
+10:43:20.264 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:43:20.272 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:43:20.293 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:44:07.928 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 12808 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:44:07.933 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:44:07.934 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:44:09.236 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:44:09.284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+10:44:11.842 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:44:12.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:44:13.923 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:44:14.173 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 7.255 seconds (JVM running for 8.676)
+10:44:14.185 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:44:14.186 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:
+10:44:15.958 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient name:
+10:44:17.710 [main] INFO  c.c.PatientIntakeSystemApplication - Choose your Doctor
+1.Praveen
+2.Sandhya,
+3.Sri Hridhya
+10:44:18.878 [main] INFO  c.c.PatientIntakeSystemApplication - Appoitments : 
+10:44:18.888 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:44:18.896 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:44:18.922 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:44:41.616 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 11.0.12 on LTIN243141 with PID 8092 (C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem\target\classes started by 2063201 in C:\Users\2063201\Training\Java\SonarQude\PatientIntakeSystem)
+10:44:41.625 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:44:41.626 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:44:42.955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:44:43.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+10:44:45.846 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:44:46.856 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:44:47.923 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:44:48.177 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 7.587 seconds (JVM running for 9.243)
+10:44:48.185 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:44:48.187 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:
+10:44:50.760 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient name:
+10:44:52.797 [main] INFO  c.c.PatientIntakeSystemApplication - Choose your Doctor
+1.Praveen
+2.Sandhya,
+3.Sri Hridhya
+10:44:53.916 [main] INFO  c.c.PatientIntakeSystemApplication - Appoitments : [PatientAppointment(patientId=101, name=Chandu, doctorAppointed=PRAVEEN)]
+10:44:53.923 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:44:53.930 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:44:53.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:07:46.702 [main] INFO  c.c.PatientIntakeSystemApplication - Starting PatientIntakeSystemApplication using Java 17.0.1 on LTIN351953 with PID 11488 (C:\Users\2063360\Downloads\PatientIntakeSystem_ch\PatientIntakeSystem\target\classes started by 2063360 in C:\Users\2063360\Downloads\PatientIntakeSystem_ch\PatientIntakeSystem)
+10:07:46.705 [main] DEBUG c.c.PatientIntakeSystemApplication - Running with Spring Boot v2.6.2, Spring v5.3.14
+10:07:46.705 [main] INFO  c.c.PatientIntakeSystemApplication - No active profile set, falling back to default profiles: default
+10:07:47.366 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:07:47.389 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+10:07:48.585 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:07:49.052 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:07:49.585 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:07:49.723 [main] INFO  c.c.PatientIntakeSystemApplication - Started PatientIntakeSystemApplication in 3.537 seconds (JVM running for 4.233)
+10:07:49.728 [main] INFO  c.c.PatientIntakeSystemApplication - Start
+10:07:49.728 [main] INFO  c.c.PatientIntakeSystemApplication - Enter the patient Id:

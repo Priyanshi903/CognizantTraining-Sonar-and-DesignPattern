@@ -1,0 +1,7 @@
+package com.cts;
+
+public class Leave {
+	private String empid;
+	private int leaveDays;
+
+}

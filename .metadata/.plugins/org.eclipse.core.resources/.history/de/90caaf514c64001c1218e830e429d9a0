@@ -1,0 +1,29 @@
+package com.cognizant.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Track {
+	@Id
+	private String trackId;
+
+	public Track() {
+
+	}
+
+	public Track(String trackId) {
+		super();
+		this.trackId = trackId;
+
+	}
+
+	public String getTrackId() {
+		return trackId;
+	}
+
+	public void setTrackId(String trackId) {
+		this.trackId = trackId;
+	}
+
+}

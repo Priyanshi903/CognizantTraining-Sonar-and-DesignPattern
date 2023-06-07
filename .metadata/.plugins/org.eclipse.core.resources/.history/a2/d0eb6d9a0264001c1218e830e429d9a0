@@ -1,0 +1,11 @@
+package com.cognizant.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class TraineeRepoImpl {
+	@Autowired
+	private TraineeRepo traineeRepo;
+
+}

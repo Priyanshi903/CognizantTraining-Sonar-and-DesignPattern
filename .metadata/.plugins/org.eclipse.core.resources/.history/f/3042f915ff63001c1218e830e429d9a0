@@ -1,0 +1,11 @@
+package com.cognizant.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Trainee {
+	private int traineeId;
+	private String traineeName;
+	private 
+
+}

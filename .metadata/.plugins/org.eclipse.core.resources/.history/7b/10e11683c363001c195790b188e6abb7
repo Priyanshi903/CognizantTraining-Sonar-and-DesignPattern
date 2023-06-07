@@ -1,0 +1,14 @@
+package com.cognizant.service;
+
+import com.cognizant.model.Flight;
+
+public class FlightService {
+	
+	public void addPassenger() {
+		
+	}
+	public void removePassenger() {
+		
+	}
+
+}

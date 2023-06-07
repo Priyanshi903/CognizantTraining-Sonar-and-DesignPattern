@@ -1,0 +1,7 @@
+package com.cognizant;
+
+public abstract class ILeaveRequestHandler {	
+	public static ILeaveRequestHandler nextHandler;
+	public abstract void handleRequest(Leave leave);
+	
+}

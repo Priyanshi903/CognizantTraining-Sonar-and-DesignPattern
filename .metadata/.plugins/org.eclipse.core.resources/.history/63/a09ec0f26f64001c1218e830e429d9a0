@@ -1,0 +1,32 @@
+package com.cognizant;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.cognizant.model.Track;
+import com.cognizant.model.Trainee;
+import com.cognizant.repository.TrackRepoImpl;
+import com.cognizant.repository.TraineeRepo;
+import com.cognizant.repository.TraineeRepoImpl;
+
+@SpringBootApplication
+public class TraineeManagementApplication {
+	private static TraineeRepoImpl traineeRepoImpl;
+	private static TrackRepoImpl trackRepoImpl;
+	
+	private static void testAddTrainee() {
+		Trainee trainee=new Trainee(101,"Priyanshi");
+		Track track=trackRepoImpl.getById("ADM010");
+		trainee.setTrack(track);
+		traineeRepoImpl.addTrainee(trainee);
+	}
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(TraineeManagementApplication.class, args);
+		traineeRepoImpl=context.getBean(TraineeRepoImpl.class);
+		trackRepoImpl=context.getBean(TrackRepoImpl.class);
+		testAddTrainee();
+	}
+
+}

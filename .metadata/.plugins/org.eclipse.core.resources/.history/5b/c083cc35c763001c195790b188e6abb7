@@ -1,0 +1,20 @@
+package com.cognizant.dao;
+
+import java.util.List;
+
+import com.cognizant.model.Flight;
+
+public class FlightImpl {
+	
+	private List<Flight> flights;
+	
+	
+	
+	public void addPassenger() {
+		
+	}
+	public void removePassenger() {
+		
+	}
+
+}

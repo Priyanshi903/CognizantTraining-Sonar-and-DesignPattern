@@ -1,0 +1,21 @@
+package com.cognizant.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.model.Trainee;
+
+@Service
+public class TraineeRepoImpl {
+	@Autowired
+	private TraineeRepo traineeRepo;
+	
+	public void addTrainee(Trainee trainee) {
+		traineeRepo.save(trainee);
+	}
+	
+	public void removeTrainee(int id) {
+		traineeRepo.deleteById(id);
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.cognizant.daoImpl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cognizant.dao.FlightDao;
+import com.cognizant.model.Flight;
+import com.cognizant.model.Passenger;
+
+public class FlightImpl implements FlightDao{	
+	private static Flight flight;
+	
+	public FlightImpl() {
+		flight=new Flight("101A", "AirIndia", new ArrayList<Passenger>());
+		
+	}
+	
+	public void addPassenger() {
+		
+	}
+	public void removePassenger() {
+		
+	}
+
+}

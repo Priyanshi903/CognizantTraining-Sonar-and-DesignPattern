@@ -1,0 +1,7 @@
+package com.cts;
+
+public interface ILeaveRequestHandler {
+	public ILeaveRequestHandler nextHandler;
+	
+
+}

@@ -1,0 +1,18 @@
+package com.cognizant.daoImpl;
+
+import java.util.List;
+
+import com.cognizant.dao.FlightDao;
+import com.cognizant.model.Flight;
+
+public class FlightImpl implements FlightDao{	
+	
+	
+	public void addPassenger() {
+		
+	}
+	public void removePassenger() {
+		
+	}
+
+}

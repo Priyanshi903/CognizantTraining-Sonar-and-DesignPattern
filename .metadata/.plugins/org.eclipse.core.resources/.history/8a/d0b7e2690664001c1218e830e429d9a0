@@ -1,0 +1,34 @@
+package com.cognizant.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.model.Trainee;
+
+@Service
+public class TraineeRepoImpl {
+	@Autowired
+	private TraineeRepo traineeRepo;
+	
+	public void addTrainee(Trainee trainee) {
+		traineeRepo.save(trainee);
+	}
+	
+	public void removeTrainee(int id) {
+		traineeRepo.deleteById(id);
+	}
+	
+	public void updateTrainee(int id,String name) {
+		Optional<Trainee> traine=traineeRepo.findById(id);
+		Trainee trainee=traine.get();
+		trainee.setTraineeName(name);
+		traineeRepo.save(trainee);
+	}
+	public List<Trainee> getAllTrainees(){
+		return traineeRepo.findAll();
+	}
+
+}

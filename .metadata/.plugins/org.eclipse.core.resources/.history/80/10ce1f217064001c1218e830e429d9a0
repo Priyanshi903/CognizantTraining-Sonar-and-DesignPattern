@@ -1,0 +1,94 @@
+package com.cognizant;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.cognizant.model.Track;
+import com.cognizant.model.Trainee;
+import com.cognizant.repository.TrackRepoImpl;
+import com.cognizant.repository.TraineeRepo;
+import com.cognizant.repository.TraineeRepoImpl;
+
+import lombok.extern.slf4j.Slf4j;
+
+@SpringBootApplication
+@Slf4j
+public class TraineeManagementApplication {
+	private static TraineeRepoImpl traineeRepoImpl;
+	private static Scanner sc;
+	
+	private static void testAddTrainee() {
+		log.info("Enter the employee id:");
+		int empId = Integer.parseInt(sc.nextLine());
+
+		log.info("Enter the employee name:");
+		String name = sc.nextLine();
+
+		log.info("Enter the email id:");
+		String emailId = sc.nextLine();
+
+		log.info("Enter the cohort code:");
+		String cohortCode = sc.nextLine();
+
+		Trainee trainee = new Trainee(empId, name, emailId, cohortCode, Track.DEFAULT);
+
+		log.info("Enter the track number\n1.FSE\n2.UI,\n3.DEVEOPS\n4.TESTING");
+		int track = Integer.parseInt(sc.nextLine());
+
+		switch (track) {
+		case 1:
+			trainee.setTrack(Track.FSE);
+			break;
+		case 2:
+			trainee.setTrack(Track.UI);
+			break;
+		case 3:
+			trainee.setTrack(Track.DEVEOPS);
+			break;
+		case 4:
+			trainee.setTrack(Track.TESTING);
+			break;
+		}
+
+		service.addTrainee(trainee);
+
+	}
+
+	private static void testDeleteTrainee() {
+
+		log.info("Enter the employee id:");
+		int empId = Integer.parseInt(sc.nextLine());
+
+		service.deleteTrainee(empId);
+
+	}
+
+	private static void getAllTaineeInCohort() {
+		log.info("Enter the cohort code:");
+		String cohortCode = sc.nextLine();
+	}
+
+	private static void testGetTraineeInACohort() {
+
+		log.info("Enter the employee id:");
+		int empId = Integer.parseInt(sc.nextLine());
+
+		log.info("Enter the cohort code:");
+		String cohortCode = sc.nextLine();
+
+		Trainee trainee = service.getTraineeUnderCohort(empId, cohortCode);
+		log.info("Trainee {}", trainee);
+
+	}
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(TraineeManagementApplication.class, args);
+		traineeRepoImpl=context.getBean(TraineeRepoImpl.class);
+		
+		testAddTrainee();
+	}
+
+}

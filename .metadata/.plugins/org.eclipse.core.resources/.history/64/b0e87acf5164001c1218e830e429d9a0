@@ -1,0 +1,10 @@
+sonar.projectKey=simpleProject
+sonar.projectName=Patient_Intake_System
+sonar.projectVersion=1.0
+sonar.login=admin
+sonar.password=vijay
+
+sonar.sources=C:/sts workspace/Patient Intake  System
+sonar.language=java
+sonar.inclusions=**/*.java
+sonar.java.binaries=*

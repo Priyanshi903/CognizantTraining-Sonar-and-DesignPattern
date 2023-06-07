@@ -1,0 +1,11 @@
+package com.cognizant.service;
+
+public class FlightService {
+	public void addPassenger() {
+		
+	}
+	public void removePassenger() {
+		
+	}
+
+}

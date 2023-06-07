@@ -1,0 +1,64 @@
+package com.cognizant;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.cognizant.patientintake.dao.ClinicCalendar;
+import com.cognizant.patientintake.model.Doctor;
+import com.cognizant.patientintake.model.PatientAppointment;
+
+import lombok.extern.slf4j.Slf4j;
+
+@SpringBootApplication
+@Slf4j
+public class PatientIntakeSystemApplication {
+	
+	
+	private static ClinicCalendar clinicCalendar = new ClinicCalendar();
+	private static Scanner sc = new Scanner(System.in);
+	
+	private static void testAddPatient() {
+		log.info("Start");
+		
+		log.info("Enter the patient Id:");
+		int id = Integer.parseInt(sc.nextLine());
+		
+		log.info("Enter the patient name:");
+		String name = sc.nextLine();
+		
+		PatientAppointment patientAppointment = new PatientAppointment(id, name, Doctor.NOT_APPOINTED);
+		
+		log.info("Choose your Doctor\n1.Praveen\n2.Sandhya,\n3.Sri Hridhya");
+		int doctor = Integer.parseInt(sc.nextLine());
+
+		switch (doctor) {
+		case 1:
+			patientAppointment.setDoctorAppointed(Doctor.PRAVEEN);
+			break;
+		case 2:
+			patientAppointment.setDoctorAppointed(Doctor.SANDHYA);
+			break;
+		case 3:
+			patientAppointment.setDoctorAppointed(Doctor.SRIHRIDYA);
+			break;
+		}
+		
+		clinicCalendar.addPatient(patientAppointment);
+		
+	}
+	
+	public static void testGetAllPointment() {
+		log.info("Appoitments : {}",clinicCalendar.getAppointmentList());
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(PatientIntakeSystemApplication.class, args);
+		System.out.println("Hello");
+		testAddPatient();
+		testGetAllPointment();
+	}
+
+}

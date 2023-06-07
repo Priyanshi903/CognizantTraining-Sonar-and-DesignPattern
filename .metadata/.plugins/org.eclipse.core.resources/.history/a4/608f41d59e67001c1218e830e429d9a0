@@ -1,0 +1,41 @@
+package com.cognizant;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Supervisor supervisor = new Supervisor();
+
+		Leave priyanshi = new Leave("202020", 1);
+
+		System.out.println(priyanshi);
+		supervisor.handleRequest(priyanshi);
+		System.out.println("-----------------------------------------");
+
+		priyanshi.setLeaveDays(2);
+
+		System.out.println(priyanshi);
+		supervisor.handleRequest(priyanshi);
+		System.out.println("-----------------------------------------");
+
+		priyanshi.setLeaveDays(4);
+
+		System.out.println(priyanshi);
+		supervisor.handleRequest(priyanshi);
+		System.out.println("-----------------------------------------");
+
+		priyanshi.setLeaveDays(6);
+
+		System.out.println(priyanshi);
+		supervisor.handleRequest(priyanshi);
+		System.out.println("-----------------------------------------");
+
+		priyanshi.setLeaveDays(10);
+
+		System.out.println(priyanshi);
+		supervisor.handleRequest(priyanshi);
+		System.out.println("-----------------------------------------");
+
+	}
+
+}

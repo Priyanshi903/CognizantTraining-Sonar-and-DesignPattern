@@ -1,0 +1,16 @@
+package com.cognizant.model;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Trainee {
+	@Id
+	private int traineeId;
+	private String traineeName;
+	@OneToOne(cascade = CascadeType.ALL)
+	private Track track;
+
+}

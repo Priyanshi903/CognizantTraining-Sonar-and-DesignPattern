@@ -1,0 +1,32 @@
+package com.cognizant;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConn {
+	private static Connection con;
+	private static DBConn dbConn = new DBConn();
+	private DBConn() {
+		super();
+	}
+	
+	static {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample", "root", "root");
+		}
+		catch(SQLException e ) {
+			e.printStackTrace();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static DBConn getInstance() {
+		return(dbConn);
+	}
+	
+}

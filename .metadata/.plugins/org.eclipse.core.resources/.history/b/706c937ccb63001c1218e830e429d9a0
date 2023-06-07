@@ -1,0 +1,21 @@
+package com.cognizant;
+
+import java.util.Scanner;
+
+import org.slf4j.Logger;
+
+import com.cognizant.model.Passenger;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class Main {
+	static Logger LOGGER;
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		LOGGER.
+		Passenger pass
+	}
+
+}

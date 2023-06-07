@@ -1,0 +1,22 @@
+package com.cognizant;
+
+public class HR  extends ILeaveRequestHandler{
+	
+
+	@Override
+	public void handleRequest(Leave leave) {
+		
+		if(leave.getLeaveDays()>7) {
+			
+
+			System.out.println("HR: Sorry we cannot give you " + leave.getLeaveDays() + " days leave.");
+			
+			
+			return;
+			
+		}
+		
+		System.out.println("HR: Your leave approved.");
+	}
+
+}

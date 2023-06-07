@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<head>
+<title>Movie Cruiser</title>
+<link rel="icon" type="image/ico" href="./images/logo.png" />
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+<script src="./js/script.js"></script>
+</head>
+<body>
+	<header> <span class="header-title">Movie Cruiser</span> <img
+		class="header-logo" src="./images/logo.png" alt="Movie Cruiser Logo"></img>
+	<nav> <a class="nav-link" href="/">Movies</a> </nav> </header>
+	<article>
+	<h2 class="article-heading">Edit Movie</h2>
+	<form:form action="/saveUpdatedMovie" modelAttribute="movie"
+		method="post">
+		<table class="form-table">
+			<tr>
+				<td colspan="4"><form:label path="title" class="form-item">Title</form:label>
+					<form:input path="title" class="form-input"
+						placeholder="${movieById.id}" disabled="true" id="field-title" /></td>
+			</tr>
+			<tr>
+				<td><form:label path="boxOffice" class="form-item">Box Office ($)</form:label>
+					<form:input path="boxOffice" class="form-input form-input-right"
+						placeholder="${movieById.boxOffice}" id="field-boxOffice" /></td>
+				<td><form:label path="active" class="form-item">Active</form:label>
+					<form:radiobutton path="active" class="form-radiobutton"
+						value="Yes" id="field-yes" />Yes <form:radiobutton path="active"
+						class="form-radiobutton" value="No" id="field-no" />No</td>
+				<td><form:label path="dateOfLaunch" class="form-item">Date of Launch</form:label>
+					<form:input path="dateOfLaunch" class="form-input"
+						placeholder="${movieById.dateOfLaunch}" id="field-dateOfLaunch" /></td>
+			</tr>
+			<tr colspan=4>
+				<td><form:label path="genre" class="form-item" id="field-genre">Genre</form:label>
+					<form:select path="genre" class="form-input" id="field-genre"
+						items="${genre}"></form:select></td>
+
+
+				<td><form:checkbox path="hasTeaser" class="form-checkbox" /> <form:label
+						path="hasTeaser" class="form-item" id="field-hasTeaser">Has Teaser</form:label>
+				</td>
+			</tr>
+			<tr colspan=4>
+				<td><input class="form-button" type="submit" name="submit"
+					value="Save"></input></td>
+			</tr>
+		</table>
+	</form:form> </article>
+	<footer>
+	<p>Copyright &copy; 2019</p>
+	</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+package com.cognizant;
+
+public class Leave {
+
+	
+	private String empId;
+	private int leaveDays;
+	
+	public Leave(String empId, int leaveDays) {
+		super();
+		this.empId = empId;
+		this.leaveDays = leaveDays;
+	}
+	
+	public String getEmpId() {
+		return empId;
+	}
+	public void setEmpId(String empId) {
+		this.empId = empId;
+	}
+	public int getLeaveDays() {
+		return leaveDays;
+	}
+	public void setLeaveDays(int leaveDays) {
+		this.leaveDays = leaveDays;
+	}
+
+	@Override
+	public String toString() {
+		return "Leave [empId=" + empId + ", leaveDays=" + leaveDays + "]";
+	}
+	
+}

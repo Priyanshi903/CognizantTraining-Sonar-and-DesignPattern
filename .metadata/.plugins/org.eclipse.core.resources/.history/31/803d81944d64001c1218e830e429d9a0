@@ -1,0 +1,62 @@
+package com.cognizant.model;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Track {
+	@Id
+	private String trackId;
+	private String trackName;
+
+	@OneToMany
+	@JoinColumn(name="traineeId")
+	private List<Trainee> trainees;
+
+	public Track() {
+
+	}
+
+	
+
+	public Track(String trackId, String trackName) {
+		super();
+		this.trackId = trackId;
+		this.trackName = trackName;
+	}
+
+
+
+	public String getTrackName() {
+		return trackName;
+	}
+
+
+
+	public void setTrackName(String trackName) {
+		this.trackName = trackName;
+	}
+
+
+
+	public String getTrackId() {
+		return trackId;
+	}
+
+	public void setTrackId(String trackId) {
+		this.trackId = trackId;
+	}
+
+	public List<Trainee> getTrainees() {
+		return trainees;
+	}
+
+	public void setTrainees(List<Trainee> trainee) {
+		this.trainees = trainee;
+	}
+
+}

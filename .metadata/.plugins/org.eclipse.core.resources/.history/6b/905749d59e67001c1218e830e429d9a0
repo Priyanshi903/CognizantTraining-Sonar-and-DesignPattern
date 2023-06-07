@@ -1,0 +1,27 @@
+package com.cognizant;
+
+public class Supervisor extends ILeaveRequestHandler {
+	
+
+	private void setNextHandler() {
+		this.nextHandler = new ProjectManager();
+	}
+	@Override
+	public void handleRequest(Leave leave) {
+		
+		if(leave.getLeaveDays()>1) {
+			
+			setNextHandler();
+			System.out.println("Supervisor: You need to wait for Project Manager approval.");
+			
+			nextHandler.handleRequest(leave);
+			
+			return;
+			
+		}
+		
+		System.out.println("Supervisor: Your leave got approved.");
+		
+	}
+
+}

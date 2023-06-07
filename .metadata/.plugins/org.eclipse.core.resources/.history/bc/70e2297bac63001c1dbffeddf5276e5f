@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Movie Cruiser</title>
+<link rel="icon" type="image/ico" href="./images/logo.png" />
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+	<header> <span class="header-title">Movie Cruiser</span> <img
+		class="header-logo" src="./images/logo.png" alt="Movie Cruiser Logo"></img>
+	<nav> <a class="nav-link" href="/addMovie">Add</a> </nav> </header>
+	<article>
+	<h2 class="article-heading">Movies</h2>
+	<table>
+		<tr>
+			<th class="col-left">Title</th>
+			<th class="col-right">Box Office</th>
+			<th>Active</th>
+			<th>Date of Launch</th>
+			<th>Genre</th>
+			<th>Has Teaser</th>
+
+		</tr>
+
+
+		<c:forEach var="movie" items="${movies}">
+			<tr>
+
+				<td class="col-left">${movie.title}</td>
+				<td class="col-right">${movie.boxOffice}</td>
+				<td>${movie.active}</td>
+				<td>${movie.dateOfLaunch}</td>
+				<td>${movie.genre}</td>
+				<td>${movie.hasTeaser}</td>
+				<td><a href="/editMovie?id=${movie.id}">Edit</a>
+			</tr>
+		</c:forEach>
+
+
+	</table>
+	</article>
+	<footer>
+	<p>Copyright &copy; 2019</p>
+	</footer>
+</body>
+</html>

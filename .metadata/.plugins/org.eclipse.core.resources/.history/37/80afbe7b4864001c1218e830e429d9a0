@@ -1,0 +1,39 @@
+package com.cognizant.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.model.Trainee;
+
+@Service
+public class TraineeRepoImpl {
+	@Autowired
+	private TraineeRepo traineeRepo;
+	
+	@Transactional
+	public void addTrainee(Trainee trainee) {
+		traineeRepo.saveAndFlush(trainee);
+	}
+	
+	@Transactional
+	public void removeTrainee(int id) {
+		traineeRepo.deleteById(id);
+	}
+	
+	@Transactional
+	public void getTraineeByName(String name) {
+		
+	}
+	  
+	@Transactional
+	public List<Trainee> getAllTraineesInCohort(){
+		return null;
+		
+	}
+
+}
